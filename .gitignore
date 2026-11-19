@@ -1,0 +1,43 @@
+# PS5 Firmware blobs and dumps (Strictly excluded from VCS)
+firmware/*.PUP
+firmware/*.pup
+firmware/*.bin
+firmware/*.BIN
+firmware/extracted/
+firmware/dumps/
+*.dec
+*.enc
+
+# Rust build artifacts
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Python artifacts and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Output manifests and dumps
+*.manifest.json
+entries.csv
+out/
+
+# IDE and OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

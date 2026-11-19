@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "core/loader",
+    "core/hypervisor_mmio",
+    "core/graphics_agc",
+]
+resolver = "2"

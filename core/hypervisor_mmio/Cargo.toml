@@ -1,0 +1,8 @@
+[package]
+name = "ps5port-hypervisor-mmio"
+version = "0.1.0"
+edition = "2021"
+description = "x86-64 Zen 2 CPUID, MSRs, MMIO trap interfaces, and virtual hardware stubs for PS5"
+license = "MIT OR Apache-2.0"
+
+[dependencies]

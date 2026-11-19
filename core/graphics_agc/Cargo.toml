@@ -1,0 +1,8 @@
+[package]
+name = "ps5port-graphics-agc"
+version = "0.1.0"
+edition = "2021"
+description = "AGC / PM4 command buffer packet definitions and RDNA2-to-Vulkan/NIR translation stubs"
+license = "MIT OR Apache-2.0"
+
+[dependencies]

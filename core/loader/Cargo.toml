@@ -1,0 +1,8 @@
+[package]
+name = "ps5port-loader"
+version = "0.1.0"
+edition = "2021"
+description = "PS5 SLB2 and ELF64 container header parser and segment map loader"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
